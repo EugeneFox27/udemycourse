@@ -1,5 +1,12 @@
-let money = +prompt('Your budget for a month?', ''),
+let money, time; 
+
+function start() {
+    money = +prompt('Your budget for a month?', ''),
     time  = prompt('Insert a date in YYYY-MM-DD','');
+    
+    
+}
+
     
 let appData = {
     budget: money,
